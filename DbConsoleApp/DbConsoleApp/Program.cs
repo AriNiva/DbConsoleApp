@@ -13,7 +13,7 @@ namespace DbConsoleApp
         static void Main(string[] args)
         {
             //Tässä tulee olla oman serverisi osoite ja tietokannan nimi
-            string connStr = "Server=ArinKone\\SQLEXARINI;Database=NorthWindOriginal;Trusted_Connection=True;";
+            string connStr = "";
             SqlConnection conn = new SqlConnection(connStr);
             conn.Open();
 
